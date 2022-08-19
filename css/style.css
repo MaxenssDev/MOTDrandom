@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans::400,700");
+body {
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	background-color: white; 
+}
+
+nav {
+	text-transform: uppercase;
+	justify-content: space-around;
+	width: 700px;
+	margin: 20px auto; 
+}
+nav ul {
+	margin: 0;
+	padding: 0; 
+}
+nav li {
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 33.33%;
+    text-align: center; 
+}
+nav a {
+    margin: auto;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    font-size: x-large;
+    color: cornflowerblue;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s; 
+}
+nav a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; 
+}
+nav a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); 
+}
+nav a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; 
+}
+nav a:hover:after {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); 
+}
+
+a {
+	color: black;
+	text-decoration: none; 
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+}
+
+.container {
+	display: none;
+	width: 700px;
+	margin: 0 auto;
+}
+
+.recrutement {
+	padding: 10px;
+	border-radius: 10px;
+	background: #ff5856;
+	text-align: center; 
+}
+
+main {
+	margin-top: 80px; 
+}
+
+.social {
+	margin: auto; 
+}
+.social a {
+	margin: 0 50px;
+	padding: 10px;
+	border-radius: 10px;
+	text-decoration: none; 
+}
+.social .discord {
+	background: #7289DA;
+	color: white;
+	float: left;
+	margin-left: 80px; 
+}
+.social .steam {
+	background: #191919;
+	color: white;
+	float: right;
+	margin-right: 80px; 
+}
+
+li {
+	margin-bottom: 8px;
+}
+
+.section {
+	list-style: upper-roman;
+}
+.section::marker {
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.subsection {
+    list-style: upper-latin; 
+}
+.subsection::marker {
+	font-size: large;
+	font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

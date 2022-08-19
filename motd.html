@@ -1,0 +1,214 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <title>Serveur random - Message du jour</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+<img class="logo" src="img/logo_large.png" alt="Serveurs Random">
+<nav class="tabs">
+    <ul>
+        <li><a href="#about">Présentation</a></li>
+        <li><a href="#rules">Règles</a></li>
+        <li><a href="#staff">Staff</a></li>
+    </ul>
+
+</nav>
+<main>
+    <div class="container" id="about">
+        <h2>À propos du serveur :</h2>
+        <p>
+            Si vous souhaitez construire, vous pouvez passer en mode construction à l'aide de la commande <strong>"!build"</strong>.
+            Ce mode vous rend invincible et vous permet de voler, cependant, vous ne pourrez plus utiliser d'armes.
+            Ce mode peut être désactivé à l'aide de la commande <strong>"!pvp"</strong>.
+        </p>
+        <p>
+            Certains outils, comme l'E2 ou le StarFall, ne sont accessibles que pour les membres. Contactez un membre du
+            staff pour savoir comment devenir membre.
+        </p>
+        <p>
+            Pensez régulièrement à sauvegarder votre travail.
+        </p>
+        <h2>Nous suivre :</h2>
+        <div class="social">
+            <a class="discord" href="https://discord.gg/pUuwB4Q">Sur notre Discord</a>
+            <a class="steam" href="http://steamcommunity.com/groups/serveursrandom">Sur notre groupe steam</a>
+        </div>
+    </div>
+    <div class="container" id="rules">
+        <h1 style="text-decoration: underline;">Les règles du serveur :</h1>
+
+        <span style="color: #fa0700">Attention, les règles peuveut changer à tout moment ! (modification du 15/08/2022) </span> <br>
+        <span style="color: #00b6fa">
+            Pour contacter un membre du staff, placez une arobase "@" devant votre message : "@message" en spécifiant un maximum d'informations sur votre problème. <br>
+            Tout message non précédé d'une arobase pourrait ne pas être pris en compte pas un staff.
+        </span><br><br>
+        Si aucun staff n'est présent, prenez des preuves (capture d'écran/vidéo) et envoyez-la dans #support sur notre Discord (<a href="https://discord.gg/pUuwB4Q">https://discord.gg/pUuwB4Q</a>) en spécifiant le Pseudo et SteamID du joueur (accessible en écrivant "status" dans la console).
+        
+        <ol>
+            <li class="section">
+                <h2>Général</h2>
+                <ol>
+                    <li>
+                        Interdiction de <strong>PropKill / PropPush</strong> : <br>
+                        Cela inclut le fait de lancer des props/bombes/entités sur les joueurs (uniquement autorisé si les joueurs concernés sont consentants, et qu'ils ne sont pas situés à proximité d'autres joueurs).
+                    </li>
+                    <li>Interdiction de spammer les props, les cordes, les duplications, etc.</li>
+                    <li>Interdiction de faire <strong>Crash</strong> ou de <strong>Ralentir le serveur</strong>.</li>
+                    <li>Interdiction de <strong>PropBlock</strong> (voir règles des bases).</li>
+                    <li>Interdiction de <strong>UseBug</strong> (utiliser un bug ou une fonctionnalité non prévue : utiliser un véhicule/portail pour passer à travers un mur, etc.).</li>
+                    <li>Interdiction de <strong>PropBlock</strong> (coincer des joueurs ou soi-même avec des props/entités).</li>
+                    <li>Interdiction de faire des constructions ou sprays contenant de la nudité/pornographie ou références à des idéologies prohibées.</li>
+                    <li>Il est interdit d'utiliser l'outil duplication pour faire apparaître une entité qui vous est normalement restreinte (considéré comme du UseBug).</li>
+                    <li>Soyez agréables avec les autres joueurs et ayez du bon sens.</li>
+                    <li><strong>Quand un staff vous dit de ne pas faire quelque chose, ne le faites pas. Les modérateurs ont le dernier mot sur les joueurs.</strong></li>
+                    <li>Si vous n'êtes pas d'accord avec la décision d'un modérateur, adressez-vous à un administrateur sur notre Discord.</li>
+                </ol>
+            </li>
+
+            <li class="section">
+                <h2>Règles du PvP</h2>
+                <ol>
+                    <li>Interdiction formelle d'utiliser toute forme de <strong>Cheat / Hack / Exploit</strong> octroyant un avantage.</li>
+                    <li>Interdiction de <strong>retourner dans la zone de protection du spawn</strong>.</li>
+                    <li>Interdiction de <strong>SpawnKill</strong> : il faut attendre au moins <strong>3 secondes</strong> avant de tuer le joueur après qu'il spawn.</li>
+                    <li>
+                        Interdiction de <strong>PropSurf / PropFly</strong> (s'aider des props pour voler). <br>
+                        Le <strong>PropClimb</strong> (faire un escalier temporaire avec des props) est toléré, mais pas à outrance.
+                    </li>
+                    <li>Interdiction de <strong>tuer des joueurs en étant en Build</strong> (avec des véhicules, etc.).</li>
+                    <li>Essayez d'être fair-play !</li>
+                </ol>
+            </li>
+
+            <li class="section">
+                <h2>Règles des bases</h2>
+                <ol>
+                    <li>Votre base doit avoir au moins <strong>une entrée que l'on peut ouvrir avec un bouton / keypad</strong>.</li>
+                    <li>Le keypad doit pouvoir être cracké (avec l'arme Keypad Cracker).</li>
+                    <li>Le keypad doit être situé à <strong>proximité de l'entrée</strong> qu'il ouvre et il doit être <strong>visible</strong>.</li>
+                    <li>Lorsque keypad de votre base est cracké la porte doit rester ouverte <strong>tant que des personnes vous attaquent ou au moins 20 secondes</strong>.</li>
+                    <li>Votre base doit être <strong>accessible du sol</strong> (soit en faisant un escalier/rampe ou un portail).</li>
+                    <li>Les bases PropBlock sont autorisées uniquement <strong>si elles ne monopolisent pas un bâtiment trop gros et que tous les joueurs y étant situés sont en Build</strong>.</li>
+                </ol>
+            </li>
+
+            <li class="section">
+                <h2>Utilisation du chat écrit et vocal</h2>
+                <ol>
+                    <li>Toute forme d'<strong>Insulte</strong>, de <strong>Racisme</strong>, de <strong>Harcèlement</strong>, de <strong>Provocation</strong>, etc. est strictement sanctionnée.</li>
+                    <li>Interdiction de <strong>Spammer</strong> le chat.</li>
+                    <li>Interdiction d'<strong>Ear Rape</strong> (émettre des sons très forts).</li>
+                    <li>Le <strong>spam micro</strong> (soundboard et musiques) autorisé uniquement si cela ne dérange personne et que cela respecte le 3.</li>
+                    <li>Il est strictement interdit de faire de la <strong>PUB</strong> (donner le nom ou l'ip d'un autre serveur/communauté).</li>
+                    <li>Tout abus des messages admin ("@") sera sanctionné.</li>
+                </ol>
+            </li>
+
+            <li class="section">
+                <h2>Utilisation des addons</h2>
+                <ol>
+                    <li class="subsection">
+                        <h3>Wiremod, Expression2 et Starfall (l'E2 et le Starfall sont réservés aux membres)</h3>
+                        <ol>
+                            <li>Interdiction de créer des systèmes donnant des avantages au joueur (forme de cheat, téléportation, etc.)</li>
+                            <li>Les tourelles doivent être <strong>destructibles</strong> et ne doivent pas faire trop de dégâts (<strong>~10 dégâts/s maximum</strong> pour une tourelle plutôt précise).</li>
+                            <li>Tout système <strong>ralentissant ou menant le serveur</strong> au crash sera lourdement sanctionné.</li>
+                            <li>Interdiction de troller les autres joueurs avec vos créations (les aveugler avec des hologrammes, les coincer avec des props, etc.).</li>
+                            <li>Vos créations doivent respecter les règles du <strong>I</strong>.</li>
+                        </ol>
+                    </li>
+                    <br>
+                    <li class="subsection">
+                        <h3>PAC3</h3>
+                        <strong>L'utilisation du PAC3 peut vous être restreinte si vous ne respectez pas ces règles.</strong>
+                        <ol>
+                            <li><strong>Si vous êtes en PvP, votre PAC3 doit avoir une taille convenable, votre vitesse et mouvement doivent être indemnes et vous devez être visible</strong>.</li>
+                            <li>Les sons/effets ne doivent pas être spammés, évitez de déranger les autres joueurs avec votre PAC3.</li>
+                            <li>Veuillez ne pas mettre de <strong>modèles ou d'effets trop grands</strong> dans vos PAC3.</li>
+                            <li>Interdiction de porter un PAC3 contenant de la <strong>nudité/pornographie</strong>.</li>
+                            <li><strong>Il est strictement interdit de voler le PAC3 d'un joueur.</strong></li>
+                        </ol>
+                    </li>
+                    <br>
+                    <li class="subsection">
+                        <h3>Les simfphys</h3>
+                        <strong>Seuls les membres ont accès aux véhicules armés.</strong>
+                        <ol>
+                            <li>Il est interdit de tirer à travers un mur grâce à la tourelle d'un char (considéré comme du UseBug).</li>
+                            <li>Interdiction de faire réapparaître un véhicule armé dans le but d'en avoir un neuf.</li>
+                            <li>Interdiction de rendre son véhicule <strong>invincible/incassable</strong>.</li>
+                        </ol>
+                    </li> 
+                    <br>
+                    <li class="subsection">
+                        <h3>LFS (avions et hélicoptères)</h3>
+                        <ol>
+                            <li>Interdiction de <strong>body destroy</strong> un LFS (se mettre sur les hélices/pales pour le détruire).</li>
+                            <li>Interdiction de rendre son véhicule <strong>invincible/incassable</strong>.</li>
+                            <li><strong>Évitez de faire apparaître un LFS dans les bâtiments.</strong></li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        </ol>		
+
+        <p>
+            Les règles sont considérées comme acquises dès lors que vous jouez sur le serveur. <br>
+            Si vous avez un doute sur une règle ou une question, veuillez la poser sur Discord (https://discord.gg/pUuwB4Q) ou vous adresser à un staff en ligne. <br>
+            Sachez que l'accès au serveur est un privilège et non un droit, et qu'il vous sera restreint si vous ne respectez pas le règlement.
+        </p>
+    </div>
+    <div class="container" id="staff">
+        <h2>L'équipe du serveur :</h2>
+        <ul>
+            <li>
+                <a href="https://steamcommunity.com/id/stevegl">
+                    <span style="color: #ff0000;">[Administrateur] </span>Stevegl
+                </a>
+            </li>
+            <li>
+                <a href="https://steamcommunity.com/profiles/76561198273454447">
+                    <span style="color: #ff0000;">[Administrateur] </span>Eres
+                </a>
+            </li>
+            <li>
+                <a href="https://steamcommunity.com/profiles/76561198191096771">
+                    <span style="color: #ff0000;">[Administrateur] </span>Hadrien
+                </a>
+            </li>
+            <li>
+                <a href="https://steamcommunity.com/profiles/76561198211939836">
+                    <span style="color: #179100;">[Modérateur] </span>Steven
+                </a>
+            </li>
+            <li>
+                <a href="https://steamcommunity.com/profiles/76561198323117436">
+                    <span style="color: #179100;">[Modérateur] </span>max876
+                </a>
+            </li>
+            <li>
+                <a href="https://steamcommunity.com/profiles/76561198360407745">
+                    <span style="color: #179100;">[Modérateur] </span>Iwunux
+                </a>
+            </li>
+            <li>
+                <a href="https://steamcommunity.com/profiles/76561198041327030">
+                    <span style="color: #179100;">[Modérateur] </span>Armand
+                </a>
+            </li>
+            <li>
+                <a href="https://steamcommunity.com/profiles/76561198367552077">
+                    <span style="color: #179100;">[Modérateur] </span>Tassin
+                </a>
+            </li>
+        </ul>
+        <div class="recrutement">
+            Les recrutements sont actuellement fermés.
+        </div>
+    </div>
+</main>
+</body>
+</html>
